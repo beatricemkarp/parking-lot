@@ -1,3 +1,12 @@
 // Place all the styles related to the spaces controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#number {
+border:3px;
+border-style:solid;
+border-color:#4c4cff;
+padding: 1em;
+}// You can use Sass (SCSS) here: http://sass-lang.com/
+ body {
+   background-color: lightblue;
+   text-align: center;
+ }
