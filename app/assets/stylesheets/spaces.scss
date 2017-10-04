@@ -2,18 +2,29 @@
 // They will automatically be included in application.css.
 #number {
 border:3px;
-border-style:solid;
-border-color:#4c4cff;
+background-color: white;
+
 padding: 1em;
 text-align: center;
 }// You ca
 #center {
+
   align: center;
+}
+#background {
+  background-color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: orange;
+}
+
+#data {
+  bottom: 10px;
 }
  body {
    width: 60%;
    margin: auto;
-   position: absolute;
+   margin-top: 50vh;
    bottom: 0px;
    left: 55px;
    background-image: url("mamkparking.JPG");
