@@ -5,8 +5,18 @@ border:3px;
 border-style:solid;
 border-color:#4c4cff;
 padding: 1em;
-}// You can use Sass (SCSS) here: http://sass-lang.com/
+text-align: center;
+}// You ca
+#center {
+  align: center;
+}
  body {
-   background-color: lightblue;
+   width: 60%;
+   margin: auto;
+   position: absolute;
+   bottom: 0px;
+   left: 55px;
+   background-image: url("mamkparking.JPG");
+   background-repeat: no-repeat;
    text-align: center;
  }

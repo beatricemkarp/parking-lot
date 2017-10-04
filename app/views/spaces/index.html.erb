@@ -1,21 +1,22 @@
 <p id="notice"><%= notice %></p>
-
 <h1 >Parking Lot Data</h1>
 <h2 id='number'> How many spaces left in the lot:<h2>
-<table>
-  <thead>
+<div id="center">
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
     <tr>
-      <th colspan="3"></th>
+    <% @spaces.each do |s| %>
+      <td><%= s.total %></td>
+    <% end %>
     </tr>
-  </thead>
 
-  <tr>
-  <% @spaces.each do |s| %>
-    <td><%= s.total %></td>
-  <% end %>
-  </tr>
-
-</table>
+  </table>
+</div>
 
 
 
